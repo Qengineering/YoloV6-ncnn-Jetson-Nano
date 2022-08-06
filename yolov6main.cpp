@@ -51,7 +51,7 @@ int main(int argc, char** argv)
     yolov6.detect(m, objects);
     yolov6.draw(m, objects);
 
-    cv::imshow("RPi4 - 1.95 GHz - 2 GB ram",m);
+    cv::imshow("YoloV6",m);
     cv::imwrite("out.jpg",m);
     cv::waitKey(0);
 
